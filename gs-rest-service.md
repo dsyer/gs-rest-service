@@ -162,6 +162,12 @@ The magic is in the @ResponseBody annotation. @ResponseBody tells Spring MVC to 
 
 Building and Running the REST Endpoint
 --------------------------------------
+>**NOTE**: The following section probably needs to be reworked 
+	      (and the build file that goes with it) to use a Servlet 3 
+	      container (such as a modern Tomcat). At this point, 
+	      these steps do not work since the sample code uses a
+	      web app initializer instead of web.xml.
+
 All of the pieces of our REST endpoint are in place. All that's left to do is to build it and run it.
 
 To run the sample, issue the following Gradle command:
